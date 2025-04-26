@@ -56,6 +56,16 @@ User Feedback System/
 - Postman (API testing)
 - VS Code
 
+## Architecture and Application Flow
+
+1. The user fills the feedback form on the frontend (React.js).
+2. On submit, frontend sends POST request to backend server (Node.js + Express.js) at `/api/feedback`.
+3. Backend saves the feedback data into MongoDB database using Mongoose model.
+4. Dashboard page fetches all feedbacks via GET request to `/api/feedback`.
+5. Users can filter and sort feedbacks based on category or date.
+6. The system is designed to be scalable, with clean API architecture and modular code organization.
+
+
 ## ScreenShots
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/00587300-46cd-440b-818c-fbb2c85ea984" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/67744395-bff4-41ab-8e2f-7d1f801881ed" />
