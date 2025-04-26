@@ -87,5 +87,5 @@ Backend will run on: http://localhost:5000
 Access the application in your browser at http://localhost:3000
 ```
 
-###Author 
-- Priyanka Singh
+### Author
+Priyanka Singh
