@@ -59,8 +59,9 @@ User Feedback System/
 ## ScreenShots
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/00587300-46cd-440b-818c-fbb2c85ea984" />
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/67744395-bff4-41ab-8e2f-7d1f801881ed" />
-## Setup Instructions
 
+
+### Setup Instructions
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/User-Feedback-System.git
@@ -84,5 +85,7 @@ npm run dev
 Backend will run on: http://localhost:5000
 
 Access the application in your browser at http://localhost:3000
+```
 
-Author - Priyanka Singh
+###Author 
+- Priyanka Singh
